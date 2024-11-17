@@ -11,7 +11,8 @@ body {
 /* Start coding here */
 .main-container {
   width: fit-content;
-  height: fit-content;padding: 10px;
+  height: fit-content;
+  padding: 10px;
   background-color: white;
   position: relative;
 }
@@ -44,7 +45,8 @@ img {
 
 .hilight {
   position: absolute;
-  width: 100%;
+  box-sizing: border-box;
+  width: 97%;
   height: 100px;
   bottom: 10px;
   z-index: 2;
